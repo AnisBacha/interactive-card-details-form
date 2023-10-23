@@ -103,7 +103,7 @@ body{
   border-radius: 5px;
 }
 .main input::placeholder{
-  color: hsl(279, 6%, 55%);
+  color: hsla(279, 6%, 55%, 0.766);
 }
 .main input:focus,
 .main input:active{
@@ -217,6 +217,7 @@ body{
     font-size: 1.5rem;
     margin-block-start: 3.75rem;
     margin-inline-start: -2.25rem;
+    font-weight: 500;
   }
   .card-name, .card-exp{
     font-size: 1rem;
@@ -233,6 +234,12 @@ body{
   .main form {
     max-width: 375px;
     margin-inline-start: 5rem;
+  }
+  .main form label{
+    letter-spacing: .2ch;
+  }
+  .main form input{
+    margin-block-start: .5rem;
   }
   .success button{
     width: 125%;
