@@ -92,7 +92,7 @@ const Card = ({cardInfo, setCardInfo}) => {
                         />
                         <input 
                             type='text'
-                            id='exp'
+                            id='expYY'
                             placeholder='YY'
                             value={cardInfo.expYY}
                             onChange={(e) => setCardInfo({...cardInfo, expYY: e.target.value})}
