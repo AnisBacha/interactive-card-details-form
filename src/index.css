@@ -41,7 +41,7 @@ body{
   align-items: center;
 }
 .header__card-back-info p{
-  color: hsl(270, 3%, 87%);
+  color: hsla(0, 0%, 100%, 0.9);
   font-size: .6rem;
   font-weight: 500;
   margin-block-end: .15rem;
@@ -76,7 +76,7 @@ body{
 }
 .card-name,
 .card-exp{
-  color: hsl(270, 3%, 87%);
+  color: hsla(0, 0%, 100%, 0.9);;
   font-size: .75rem;
   margin-block-start: 1.5rem;
 }
@@ -185,20 +185,54 @@ body{
   .header__card-back,
   .header__card-back-info{
     top: 450px;
-    left: 300px;
+    left: 250px;
+
+    width: 425px;
+    height: 250px;
+  }
+  .header__card-back-info p{
+    font-size: 1rem;
+    margin-inline-end: 1.75rem;
   }
   .header__card-front,
   .header__card-front-info{
-    top: 250px;
-    left: 200px;
+    top: 175px;
+    left: 150px;
+
+    width: 425px;
+    height: 250px;
+    
+  }
+  .header__card-front-info{
+    padding-inline: 1.5rem;
+    padding-block-start: 1.75rem;
+  }
+  .header__card-front-info img{
+    width: 100px;
+  }
+  .header__card-front-info div{
+    margin-block-start: .25rem;
+  }
+  .card-number{
+    font-size: 1.5rem;
+    margin-block-start: 3.75rem;
+    margin-inline-start: -2.25rem;
+  }
+  .card-name, .card-exp{
+    font-size: 1rem;
   }
 
   .main{
     margin: 0;
+    margin-inline-start: 2rem;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .main form {
+    max-width: 375px;
+    margin-inline-start: 5rem;
   }
   .success button{
     width: 125%;

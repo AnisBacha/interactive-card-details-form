@@ -11,7 +11,7 @@ const Header = ({cardInfo}) => {
                 />
                 <section className='header__card-back-info'>
                     <p>
-                        {cardInfo.cvc === '' ? ('FELICIA LEIRE') : (cardInfo.cvc)}                    
+                        {cardInfo.cvc === '' ? ('000') : (cardInfo.cvc)}                    
                     </p>
                 </section>
             </section>
